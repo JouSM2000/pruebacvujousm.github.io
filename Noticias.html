@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="CSS4/Noticias.css">
+    <link rel="icon" href="images/LogoFinanzasPestaña.webp">
+</head>
+<body>
+  <header>
+    <a id="logo-link" href="index.html"><img  id="logo" src="images/LogoFinanzas.webp"></a>
+    <div class="espacio-vacio"></div>
+    <ul id="ini-regis">
+      <a href=""><li class="botones-ingreso">Iniciar sesion</li></a>
+      <a href="RegistrarseE.html"><li class="botones-ingreso">Registrarse</li></a>
+    </ul> 
+  </header>
+  <nav>
+    <div class="both-publicidad">
+      <ul id="botn">
+        <a href="index.html"><li class="botones-navegacion bbn bbn2">Inicio</li></a>
+        <a href="Tipos de Inversiones.html"><li class="botones-navegacion bbn bbn2 bbn3">Tipos de Inversiones</li></a>
+        <a href="Graficos.html"><li class="botones-navegacion bbn bbn2">Graficos</li></a>
+        <a href="#"><li class="botones-navegacion bbn">Analisis</li></a>
+        <a href="Noticias.html"><li class="botones-navegacion bbn">Noticias</li></a>  
+        <a href="Contactos.html"><li class="botones-navegacion">Contactos</li></a>
+      </ul>
+      <div class="publicidad">
+        <div class="publicidad-blocke pb1"><a href="https://www.bullmarketbrokers.com/" class="p-a"><img src="images/BullMarket.webp" class="i"></a>
+        </div>
+        <div class="publicidad-blocke pb2"><a href="https://www.invertironline.com/" class="p-a"><img src="images/InvertirOnline.webp" class="i"></a>
+        </div>
+        <div class="publicidad-blocke pb3"><a href="https://balanz.com/" class="p-a"><img src="images/Balanz.webp" class="i"></a>
+        </div> 
+      </div>
+    </div>
+    <hr>
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+        "symbols": [
+          {
+            "proName": "FOREXCOM:SPXUSD",
+            "title": "S&P 500"
+          },
+          {
+            "proName": "FOREXCOM:NSXUSD",
+            "title": "US 100"
+          },
+          {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR a USD"
+          },
+          {
+            "description": "KO",
+            "proName": "NYSE:KO"
+          },
+          {
+            "description": "AAPL",
+            "proName": "NASDAQ:AAPL"
+          },
+          {
+            "description": "TSLA",
+            "proName": "NASDAQ:TSLA"
+          },
+          {
+            "description": "MSFT",
+            "proName": "NASDAQ:MSFT"
+          },
+          {
+            "description": "MCD",
+            "proName": "NYSE:MCD"
+          },
+          {
+            "description": "DIS",
+            "proName": "NYSE:DIS"
+          },
+          {
+            "description": "GOOG",
+            "proName": "NASDAQ:GOOG"
+          },
+          {
+            "description": "NVDA",
+            "proName": "NASDAQ:NVDA"
+          },
+          {
+            "description": "AMZN",
+            "proName": "NASDAQ:AMZN"
+          },
+          {
+            "description": "WMT",
+            "proName": "NYSE:WMT"
+          },
+          {
+            "description": "NIKE",
+            "proName": "NYSE:NKE"
+          },
+          {
+            "description": "BTC",
+            "proName": "BINANCE:BTCUSD"
+          },
+          {
+            "description": "ETH",
+            "proName": "BINANCE:ETHUSD"
+          }
+        ],
+        "showSymbolLogo": true,
+        "colorTheme": "dark",
+        "isTransparent": true,
+        "displayMode": "adaptive",
+        "locale": "es"
+        }
+      </script>
+    </div>
+    <button class="boton-redireccionamiento" onclick ="window.scrollTo(0, 0)"><i class="fa-solid fa-arrow-up"><p class="texto-redireccionamiento"></p></i></button>  
+  </nav>
+  <hr>
+  <div id="aside-section">
+    <aside>
+      <p class="titulos-aside">REDES SOCIALES</p>
+      <div class="raya"></div>
+      <table id="lista-iconos">
+        <tr>
+          <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.instagram.com/jou.s.m/"><img class="redes" src="images/Instagram.webp">Instagram</a></td>
+          <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Facebook.webp">Facebook</a></td>
+          <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Twitter.webp">Twitter</a></td>
+          <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.youtube.com/@quees9681"><img class="redes" src="images/Youtube.webp">Youtube</a></td>
+          <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Linkedin.webp">Linkedin</a></td>  
+        </tr>
+      </table>   
+      <p class="titulos-aside">COMENTARIOS</p>
+      <div class="raya"></div>
+      <form action="" name='comentarios'>
+        <label for="nombre"></label>
+        <input type="text" id="cuadro-nombre" name="nombre" placeholder="Escribe tu nombre">
+        <label for="comentario"></label>
+        <textarea id="cuadro-comentario" name="comentario" value="vacio" placeholder="Escribe tu comentario"></textarea>
+        <button id="boton-enviar" type="submit">Enviar</button>
+      </form>           
+    </aside> 
+    <section>
+      <article>
+        
+        <div class="contenedor c1">
+          
+          <div class="caja-encabezado">
+              <p class="text-encabezado">NUEVA YORK 11/09/2023</p>
+          </div>
+          
+          <img class="imagenes-nt" src="images/1.png">
+          <h5>Yen sube tras comentarios del BoJ; dólar cae a la espera de dato de inflación en EEUU</h5>
+          <p class="textos-nt">El yen subió con fuerza el lunes frente al dólar tras comentarios del gobernador del Banco de Japón, Kazuo Ueda, que avivaron las esperanzas de que un fin a la política de tasas de interés negativas, mientras que el billete verde bajó antes de los datos clave de la inflación estadounidense de esta semana. El dólar caía un 0,89%, a 146,50 yenes, ...</p>
+        
+          
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">WASHINGTON 12/09/2023</p>
+          </div>
+          <img class="imagenes-nt" src="images/2.png">
+          <h5> La SEC de EEUU multa a nueve empresas de inversión por incumplir normas de comercialización</h5>  
+          <p class="textos-nt">La Comisión de Bolsa y Valores de Estados Unidos (SEC, por sus siglas en inglés) ordenó el lunes a nueve empresas de asesorías de inversiones el pago de un total de 850.000 dólares en concepto de sanciones civiles, por publicitar rendimientos hipotéticos sin aplicar las nuevas políticas exigidas por los reguladores. La SEC concluyó que las...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/09/2023</p>
+          </div>
+          <img class="imagenes-nt" src="images/3.png">
+          <h5>Google Chrome lanza rastreador integrado de usuarios para anunciantes</h5>
+          <p class="textos-nt">Google Chrome lanzó su plataforma integrada de seguimiento y curación de anuncios, "Privacy Sandbox", el 11 de septiembre, según una publicación en el blog de la compañía. Inicialmente, la plataforma se implementó para un pequeño porcentaje de usuarios, pero ahora está disponible para aproximadamente el 97% de los usuarios. Google dijo que el ...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>          
+          <img class="imagenes-nt" src="images/N4.jpg">
+          <h5>Nasdaq cierra con fuerte alza ante optimismo por la inteligencia artificial</h5>
+          <p class="textos-nt">El Nasdaq cerró con una fuerte alza el lunes, con las acciones de Tesla (NASDAQ:TSLA) disparadas por el optimismo en torno a la inteligencia artificial, mientras los inversores esperaban los datos de inflación que se publicarán esta semana. Tesla subió después de que Morgan Stanley (NYSE:MS) elevó al fabricante de automóviles eléctricos a "sobreponderar" ...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/N5.jpg">
+          <h5>¡Tesla se dispara! IA le da vuelo y Morgan le sube el precio a 400 dólares</h5>
+          <p class="textos-nt">Las acciones de Tesla se dispararon esta mañana en Wall Street después de que el banco de inversiones Morgan Stanley subiera su precio objetivo más de 60% a 400 dólares, desde 250 dólares, y la elevó a “Sobreponderar”. La razón: los analistas creen que Dojo, la supercomputadora que Tesla comenzó a producir en julio para entrenar a la inteligencia ...</p>   
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/6.png">
+          <h5>Las mineras impulsan las acciones europeas a la espera del IPC de EEUU y la reunión del BCE</h5>
+          <p class="textos-nt">Las acciones europeas subieron el lunes, lideradas por las mineras gracias al alza del precio de la mayoría de los metales básicos, mientras los inversores esperan la crucial publicación de la inflación estadounidense y la decisión de política monetaria del Banco Central Europeo esta misma semana. El índice paneuropeo STOXX 600 ...</p>    
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">CHICAGO, EEUU 11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/N7.jpg">
+          <h5>El maíz cae y el trigo marca un nuevo mínimo a la espera del informe del USDA</h5>
+          <p class="textos-nt">Los futuros del maíz de Chicago caían el lunes y los del trigo alcanzaron su nivel más bajo desde mayo, mientras los operadores se apresuraban a ajustar sus posiciones antes de la publicación de un informe sobre la cosecha. El maíz bajaba antes de la publicación mensual del martes de las Estimaciones de la Oferta y la Demanda ...</p> 
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/N8.jpg">
+          <h5>¿Quién compra los chips de IA de Nvidia? Ojo a este experto</h5>
+          <p class="textos-nt">Los analistas esperan que el crecimiento de Nvidia (NASDAQ:NVDA) en los próximos siete trimestres se remonte a los locos años del mercado alcista de las criptomonedas, que impulsó la demanda de GPU a un ritmo récord. Las estimaciones de ingresos han seguido subiendo para los trimestres siguientes desde que Nvidia anunciara sus previsiones en mayo, con ...</p>
+        </div>
+        
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/9.png">
+          <h5>Janus Henderson lanza un fondo de deuda con vencimiento fijo en 2027</h5>
+          <p class="textos-nt">El fondo "invertirá en una cartera bien diversificada, compuesta principalmente por bonos con grado de inversión de mercados desarrollados de todo el mundo", con le objetivo de "proporcionar una renta periódica al tiempo que pretende preservar el capital inicial invertido durante todo el plazo de la cartera"."Realizando un análisis en profundidad de los fundamentales de las ...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">11/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/N10.jpg">
+          <h5>Vehículos de criptoactivos tienen su cuarta semana consecutiva de retiros mientras XRP va contra la tendencia</h5>
+          <p class="textos-nt">Los retiros de criptoactivos durante la semana del 3 al 9 de septiembre totalizaron USD 59.3 millones, lo que eleva la racha actual a USD 249 millones en cuatro semanas consecutivas. Bitcoin experimentó la mayor actividad la semana pasada, con retiros que ascienden a USD 68.9 millones, compensadas por ...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">ASUNCION 11/092023</p>
+          </div>    
+          <img class="imagenes-nt" src="images/N11.jpg">
+          <h5>Paraguay y Argentina acuerdan diálogo para abordar peaje en hidrovía y represa de Yacyretá</h5>
+          <p class="textos-nt">Delegados de los Gobiernos de Paraguay y Argentina acordaron este lunes mantener conversaciones sobre el peaje argentino en la hidrovía Paraguay-Paraná y la situación de la represa binacional de Yacyretá, después del malestar expresado por Asunción por la retención de embarcaciones en el vecino país.En una comparecencia ...</p>
+        </div>
+
+        <div class="contenedor">
+          <div class="caja-encabezado">
+            <p class="text-encabezado">LONDRES 4/092023</p>
+          </div>
+          <img class="imagenes-nt" src="images/12.png">
+          <h5>Reino Unido fija las prioridades de la cumbre mundial de noviembre sobre seguridad de la IA</h5>
+          <p class="textos-nt">Reino Unido fijó el lunes los objetivos de su cumbre mundial sobre la seguridad de la inteligencia artificial (IA), centrada en la comprensión de los riesgos que plantea esta tecnología de vanguardia y en la forma de apoyar los marcos nacionales e internacionales. La cumbre, que se celebrará los días 1 y 2 de noviembre, reunirá a ejecutivos ...</p>
+        </div>
+      </article>   
+    </section>
+  </div>
+  <footer>
+    <table id="lista-copy"> 
+      <tr class="l1">
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Acerca de Finanzas.Inc</a></td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Politica de Privacidad</a></td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Preguntas frecuentes</a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.instagram.com/jou.s.m/"><img src="images/InstagramC.png" class="ico-copy"></a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/FacebookC.png" class="ico-copy"></a></td>
+        <td id="cuadro-de-logo-copy" rowspan="2"><img id="logo-copy" src="images/LogoFinanzas.webp"></td>
+      </tr>
+      <tr class="l2">
+        <td class="cuadro-de-copy"><a class="link-copy" href="" title="Jose Salas">Desarrolladores</a></td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Condiciones</td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Trabaja con nosotros</a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TelegramC.png" class="ico-copy"></a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.youtube.com/@quees9681"><img src="images/YoutubeC.png" class="ico-copy"></a></td>
+      </tr>
+      <tr class="l3">
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Academia Finanzas.Inc</a></td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Declaracion de cookies</a></td>
+        <td class="cuadro-de-copy"><a class="link-copy" href="">Contacto</a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/LinkedinC.png" class="ico-copy"></a></td>
+        <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TwitterC.png" class="ico-copy"></a></td>
+        <td class="cuadro-de-texto-copy"><p id="texto-copy">Copyright (c) 2023 Finanzas.Inc. Todos los derechos reservados.</p></td>
+      </tr> 
+    </table>
+  </footer>
+  <script src="JAVASRCIPT/Noticias.js"></script>
+  <script src="https://kit.fontawesome.com/f74e1cde49.js" crossorigin="anonymous"></script> 
+</body>

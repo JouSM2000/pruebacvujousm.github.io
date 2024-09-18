@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas</title>
+    <link rel="stylesheet" href="CSS4/index.css">
+    <link rel="icon" href="images/LogoFinanzasPestaña.webp">
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html"><img id="logo" src="images/LogoFinanzas.webp"></a>
+        <div class="espacio-vacio"></div>
+        <ul id="ini-regis">
+            <a href=""><li class="botones-ingreso">Iniciar sesion</li></a>
+            <a href="RegistrarseE.html"><li class="botones-ingreso">Registrarse</li></a>
+        </ul>
+    </header>
+    <nav>
+      <div class="both-publicidad">
+        <ul id="botn">
+            <a href="index.html"><li class="botones-navegacion bbn bbn2">Inicio</li></a>
+            <a href="Tipos de Inversiones.html"><li class="botones-navegacion bbn bbn2 bbn3">Tipos de Inversiones</li></a>
+            <a href="Graficos.html"><li class="botones-navegacion bbn bbn2">Graficos</li></a>
+            <a href="#"><li class="botones-navegacion bbn">Analisis</li></a>
+            <a href="Noticias.html"><li class="botones-navegacion bbn">Noticias</li></a>
+            <a href="Contactos.html"><li class="botones-navegacion">Contactos</li></a>
+        </ul>
+        <div class="publicidad">
+            <div class="publicidad-blocke pb1"><a href="https://www.bullmarketbrokers.com/" class="p-a"><img src="images/BullMarket.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb2"><a href="https://www.invertironline.com/" class="p-a"><img src="images/InvertirOnline.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb3"><a href="https://balanz.com/" class="p-a"><img src="images/Balanz.webp" class="i"></a>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {
+          "symbols": [
+            {
+              "proName": "FOREXCOM:SPXUSD",
+              "title": "S&P 500"
+            },
+            {
+              "proName": "FOREXCOM:NSXUSD",
+              "title": "US 100"
+            },
+            {
+              "proName": "FX_IDC:EURUSD",
+              "title": "EUR a USD"
+            },
+            {
+              "description": "KO",
+              "proName": "NYSE:KO"
+            },
+            {
+              "description": "AAPL",
+              "proName": "NASDAQ:AAPL"
+            },
+            {
+              "description": "TSLA",
+              "proName": "NASDAQ:TSLA"
+            },
+            {
+              "description": "MSFT",
+              "proName": "NASDAQ:MSFT"
+            },
+            {
+              "description": "MCD",
+              "proName": "NYSE:MCD"
+            },
+            {
+              "description": "DIS",
+              "proName": "NYSE:DIS"
+            },
+            {
+              "description": "GOOG",
+              "proName": "NASDAQ:GOOG"
+            },
+            {
+              "description": "NVDA",
+              "proName": "NASDAQ:NVDA"
+            },
+            {
+              "description": "AMZN",
+              "proName": "NASDAQ:AMZN"
+            },
+            {
+              "description": "WMT",
+              "proName": "NYSE:WMT"
+            },
+            {
+              "description": "NIKE",
+              "proName": "NYSE:NKE"
+            },
+            {
+              "description": "BTC",
+              "proName": "BINANCE:BTCUSD"
+            },
+            {
+              "description": "ETH",
+              "proName": "BINANCE:ETHUSD"
+            }
+          ],
+          "showSymbolLogo": true,
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "displayMode": "adaptive",
+          "locale": "es"
+          }
+        </script>
+      </div>
+      <button class="boton-redireccionamiento" onclick ="window.scrollTo(0, 0)"><i class="fa-solid fa-arrow-up"><p class="texto-redireccionamiento"></p></i></button>
+    </nav>
+    <hr>
+    <div id="aside-section">
+    <aside class="conjunto">
+        <p class="titulos-aside">REDES SOCIALES</p>
+        <div class="raya"></div>
+        <table id="lista-iconos">
+            <tr>
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.instagram.com/jou.s.m/"><img class="redes" src="images/Instagram.webp">Instagram</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Facebook.webp">Facebook</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Twitter.webp">Twitter</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.youtube.com/@quees9681"><img class="redes" src="images/Youtube.webp">Youtube</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Linkedin.webp">Linkedin</a></td>
+            </tr>
+        </table>
+        <p class="titulos-aside ts">COMENTARIOS</p>
+        <div class="raya"></div>
+        <form action="" name='comentarios'>
+          <label for="nombre"></label>
+          <input type="text" id="cuadro-nombre" name="nombre" placeholder="Escribe tu nombre">
+          <label for="comentario"></label>
+          <textarea id="cuadro-comentario" name="comentario" value="vacio" placeholder="Escribe tu comentario"></textarea>
+          <button id="boton-enviar" type="submit">Enviar</button>
+        </form>
+    </aside>
+        <section>
+            <article>
+              <h1 class="titulo1">Bienvenido usuario a FINANZAS </h1>
+              <p class="texto-articulo"> Primero empezare con una pequeñá presentacion:</p>
+              <div class="caja-tarjeta-presentacion">
+                <div class="tarjeta-presentacion tp1"><p class="text-tarjeta tt1">¿Cual es mi nombre?</p></div>
+                <div class="tarjeta-presentacion tp2"><p class="text-tarjeta tt2">¿Cuantos años tengo?</p></div>
+                <div class="tarjeta-presentacion tp3"><p class="text-tarjeta tt3">¿Porque hice una pagina de finanzas?</p></div>
+                <div class="tarjeta-presentacion tp4"><p class="text-tarjeta tt4">¿Cuales fueron los medios que utilize para aprender sobre estos temas?</p></div>
+                <div class="tarjeta-presentacion tp5"><p class="text-tarjeta tt5">¿Que otras cosas he estudiado?</p></div>
+                <div class="tarjeta-presentacion tp6"><p class="text-tarjeta tt6">¿De que club soy?</p></div>
+              </div>
+              <p class="texto-articulo"> A conticuacion colocare un video que no tienen que ver con inversion especificamente, pero quize colocarlo por que ya hace tiempo lo habia creado y hoy me sirve como ejemplo de elemento  IFRAME</p>                
+              <button type="submit" class="boton-video1 bv1">VIDEO</button>
+              <div class="marco-video1">
+                <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/zflkag_9OSM?si=HOyyALCDtmJYI_CR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>  
+              <p class="texto-articulo">Bien, hagamos un pequeño juego. Antes de pasar el mouse sobre la imagen, trata de adivinar cual es el ticker de cada accion. Un ticker o tambien conocido como etiqueta de cotización o código de cotización, es un código alfanumérico que sirve para identificar de forma abreviada las acciones de una determinada empresa que cotiza en un determinado mercado bursátil.</p>
+              <div class="contenedor-img">
+                <img class="img-ocultar img-1" src="images/cocacola.webp">
+                <img class="img-ocultar img-2" src="images/mercadolibre.webp">
+              </div>  
+              <div class="contenedor-img">  
+                <img class="img-ocultar img-3" src="images/Amazon.webp">
+                <img class="img-ocultar img-4" src="images/apple.webp">
+              </div>
+              <button type="submit" class="resetear-imagenes">Resetear</button>
+              <p class="texto-articulo tab">Bueno, ¿que te parece si leemos algunos comentarios que los usuarios le hicieron a la pagina?. Luego de leerlos, te invitamos a que dejes tu comentario por medio de la seccion de Comentarios o ingresando a la pestaña de Contactos.</p>
+              <button class="boton-comentarios-desplegados">
+                <p class="text">Ver</p>
+                <img id="imagen-ojo-cerrado" class="imagen-ojo" src="images/ojo-cerrado.webp">
+              </button>
+            </article>
+        </section>     
+    </div>
+    <footer>
+        <table id="lista-copy"> 
+            <tr class="l1">
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Acerca de Finanzas.Inc</a></td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Politica de Privacidad</a></td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Preguntas frecuentes</a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.instagram.com/jou.s.m/"><img src="images/InstagramC.png" class="ico-copy"></a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/FacebookC.png" class="ico-copy"></a></td>
+                <td id="cuadro-de-logo-copy" rowspan="2"><img id="logo-copy" src="images/LogoFinanzas.webp"></td>
+            </tr>
+            <tr class="l2">
+                <td class="cuadro-de-copy"><a class="link-copy" href="" title="Jose Salas">Desarrolladores</a></td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Condiciones</td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Trabaja con nosotros</a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TelegramC.png" class="ico-copy"></a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.youtube.com/@quees9681"><img src="images/YoutubeC.png" class="ico-copy"></a></td>
+            </tr>
+            <tr class="l3">
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Academia Finanzas.Inc</a></td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Declaracion de cookies</a></td>
+                <td class="cuadro-de-copy"><a class="link-copy" href="">Contacto</a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/LinkedinC.png" class="ico-copy"></a></td>
+                <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TwitterC.png" class="ico-copy"></a></td>
+                <td class="cuadro-de-texto-copy"><p id="texto-copy">Copyright (c) 2023 Finanzas.Inc. Todos los derechos reservados.</p></td>
+            </tr>
+        </table>
+    </footer>
+    <script src="JAVASRCIPT/index.js"></script>
+    <script src="https://kit.fontawesome.com/f74e1cde49.js" crossorigin="anonymous"></script>
+</body>
+</html>

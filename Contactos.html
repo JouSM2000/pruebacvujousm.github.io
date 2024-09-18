@@ -1,0 +1,244 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="CSS4/Contactos.css">
+    <link rel="icon" href="images/LogoFinanzasPestaña.webp">
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html"><img id="logo" src="images/LogoFinanzas.webp"></a>
+        <div class="espacio-vacio"></div>
+        <ul id="ini-regis">
+            <a href=""><li class="botones-ingreso">Iniciar sesion</li></a>
+            <a href="RegistrarseE.html"><li class="botones-ingreso">Registrarse</li></a>
+        </ul>
+    </header>
+    <nav>
+      <div class="both-publicidad">
+        <ul id="botn">
+            <a href="index.html"><li class="botones-navegacion bbn bbn2">Inicio</li></a>
+            <a href="Tipos de Inversiones.html"><li class="botones-navegacion bbn bbn2 bbn3">Tipos de Inversiones</li></a>
+            <a href="Graficos.html"><li class="botones-navegacion bbn bbn2">Graficos</li></a>
+            <a href="#"><li class="botones-navegacion bbn">Analisis</li></a>
+            <a href="Noticias.html"><li class="botones-navegacion bbn">Noticias</li></a>
+            <a href="Contactos.html"><li class="botones-navegacion">Contactos</li></a>
+        </ul>
+        <div class="publicidad">
+            <div class="publicidad-blocke pb1"><a href="https://www.bullmarketbrokers.com/" class="p-a"><img src="images/BullMarket.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb2"><a href="https://www.invertironline.com/" class="p-a"><img src="images/InvertirOnline.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb3"><a href="https://balanz.com/" class="p-a"><img src="images/Balanz.webp" class="i"></a>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {
+          "symbols": [
+            {
+              "proName": "FOREXCOM:SPXUSD",
+              "title": "S&P 500"
+            },
+            {
+              "proName": "FOREXCOM:NSXUSD",
+              "title": "US 100"
+            },
+            {
+              "proName": "FX_IDC:EURUSD",
+              "title": "EUR a USD"
+            },
+            {
+              "description": "KO",
+              "proName": "NYSE:KO"
+            },
+            {
+              "description": "AAPL",
+              "proName": "NASDAQ:AAPL"
+            },
+            {
+              "description": "TSLA",
+              "proName": "NASDAQ:TSLA"
+            },
+            {
+              "description": "MSFT",
+              "proName": "NASDAQ:MSFT"
+            },
+            {
+              "description": "MCD",
+              "proName": "NYSE:MCD"
+            },
+            {
+              "description": "DIS",
+              "proName": "NYSE:DIS"
+            },
+            {
+              "description": "GOOG",
+              "proName": "NASDAQ:GOOG"
+            },
+            {
+              "description": "NVDA",
+              "proName": "NASDAQ:NVDA"
+            },
+            {
+              "description": "AMZN",
+              "proName": "NASDAQ:AMZN"
+            },
+            {
+              "description": "WMT",
+              "proName": "NYSE:WMT"
+            },
+            {
+              "description": "NIKE",
+              "proName": "NYSE:NKE"
+            },
+            {
+              "description": "BTC",
+              "proName": "BINANCE:BTCUSD"
+            },
+            {
+              "description": "ETH",
+              "proName": "BINANCE:ETHUSD"
+            }
+          ],
+          "showSymbolLogo": true,
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "displayMode": "adaptive",
+          "locale": "es"
+          }
+        </script>
+      </div>
+      <button class="boton-redireccionamiento" onclick ="window.scrollTo(0, 0)"><i class="fa-solid fa-arrow-up"><p class="texto-redireccionamiento"></p></i></button>
+    </nav>
+    <hr>
+    <div id="aside-section">
+      <section>
+        <article>
+          <p class="titulo1">Contactanos</h1>
+          <p class="titulo2">Comentario</p>
+          <p class="texto-articulo">A continuacion podes realzar tu comentario o consulta</p>
+          <form action="" name='comentarios'>
+            <label for="nombre"></label>
+            <input type="text" id="cuadro-nombre" name="nombre" placeholder="Escribe tu nombre">
+            <label for="comentario"></label>
+            <textarea id="cuadro-comentario" name="comentario" value="vacio" placeholder="Escribe tu comentario"></textarea>
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+          <p class="titulo2">Formulario</p>
+          <p class="texto-articulo">Nos gustaria conocerte, ¿que te parece si completas el siguiente formulario y nos cuestas de ti?</p>
+          <form id="formulario">
+            <div class="puntos">
+              <label for="nombre">1-Nombre:</label>
+              <input type="text" name="nombre">
+            </div>
+            <div class="puntos">
+              <label for="genero">2-¿Cual es tu genero?</label>
+              <ul>
+                <li class="opcciones">
+                  <label for="genero">Hombre</label>
+                  <input type="radio" name="genero" value="Hombre">
+                </li>
+                <li class="opcciones">
+                  <label for="genero">Mujer</label>
+                  <input type="radio" name="genero" value="Mujer">
+                </li>
+                <li class="opcciones">
+                  <label for="genero">No definido</label>
+                  <input type="radio" name="genero" value="No definido" checked="checked">
+                </li>
+              </ul>
+            </div>
+            <div class="puntos">
+              <label for="color">3-¿Cual es tu color favorito?</label>
+              <input class="input" type="text" name="color">
+            </div>
+            <div class="puntos">
+              <label for="numero">4-¿Cual es tu numero preferido?</label>
+              <input class="input2" type="number" name="numero">
+            </div>
+            <div class="puntos">
+              <label for="comida">5-¿Cual es tu comida preferida?</label>
+              <input class="input2" type="text" name="comida">
+            </div>
+            <div class="puntos">
+              <label for="club">6-¿De que club sos?</label>
+              <input type="text" name="club">
+            </div>
+            <div class="puntos">
+              <p>7-¿Cual de estos tipos de inversiones ya conocias?</p>
+              <ul>
+                <li class="opcciones">
+                  <label for="acciones">Acciones</label>
+                  <input type="checkbox" name="acciones" value="Acciones">
+                </li>
+                <li class="opcciones">
+                  <label for="bonos">Bonos</label>
+                  <input type="checkbox" name="bonos" value="Bonos">
+                </li>
+                <li class="opcciones">
+                  <label for="fondo de inversion">Fondo de Inversion</label>
+                  <input type="checkbox" name="fondo de inversion" value="Fondo de Inversion">
+                </li>
+                <li class="opcciones">
+                  <label for="bienes raices">Bienes Raices</label>
+                  <input type="checkbox" name="bienes raices" value="Bienes Raices">
+                </li>
+                <li class="opcciones">
+                  <label for="comodities">Commodities</label>
+                  <input type="checkbox" name="comodities" value="Commodities">
+                </li>
+                <li class="opcciones">
+                  <label for="criptomonedas">Criptomonedas</label>
+                  <input type="checkbox" name="criptomonedas" value="Criptomonedas">
+                </li>
+              </ul>
+            </div>
+            <div class="puntos">
+              <label class="label" for="perfil">8-¿Cual es tu perfil de inversor?</label>
+              <select name="perfil">
+                <option name="perfil" value="conservador">conservador</option>
+                <option name="perfil" value="moderado">moderado</option>
+                <option name="perfil" value="agresivo">agresivo</option>
+              </select> 
+            </div>
+            <button class="boton" type="submit">Enviar</button>
+          </form>
+        </article>      
+      </section>     
+    </div>
+    <footer>
+      <table id="lista-copy"> 
+          <tr class="l1">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Acerca de Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Politica de Privacidad</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Preguntas frecuentes</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.instagram.com/jou.s.m/"><img src="images/InstagramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/FacebookC.png" class="ico-copy"></a></td>
+              <td id="cuadro-de-logo-copy" rowspan="2"><img id="logo-copy" src="images/LogoFinanzas.webp"></td>
+          </tr>
+          <tr class="l2">
+              <td class="cuadro-de-copy"><a class="link-copy" href="" title="Jose Salas">Desarrolladores</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Condiciones</td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Trabaja con nosotros</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TelegramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.youtube.com/@quees9681"><img src="images/YoutubeC.png" class="ico-copy"></a></td>
+          </tr>
+          <tr class="l3">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Academia Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Declaracion de cookies</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Contacto</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/LinkedinC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TwitterC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-texto-copy"><p id="texto-copy">Copyright (c) 2023 Finanzas.Inc. Todos los derechos reservados.</p></td>
+          </tr>
+      </table>
+    </footer>
+    <script src="JAVASRCIPT/Contactos.js"></script>
+    <script src="https://kit.fontawesome.com/f74e1cde49.js" crossorigin="anonymous"></script>
+</body>
+</html>

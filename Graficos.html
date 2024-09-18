@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas</title>
+    <link rel="stylesheet" href="CSS4/Graficos.css">
+    <link rel="icon" href="images/LogoFinanzasPestaña.webp">
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html"><img id="logo" src="images/LogoFinanzas.webp"></a>
+        <div class="espacio-vacio"></div>
+        <ul id="ini-regis">
+            <a href=""><li class="botones-ingreso">Iniciar sesion</li></a>
+            <a href="RegistrarseE.html"><li class="botones-ingreso">Registrarse</li></a>
+        </ul>
+    </header>
+    <nav>
+      <div class="both-publicidad">
+        <ul id="botn">
+            <a href="index.html"><li class="botones-navegacion bbn bbn2">Inicio</li></a>
+            <a href="Tipos de Inversiones.html"><li class="botones-navegacion bbn bbn2 bbn3">Tipos de Inversiones</li></a>
+            <a href="Graficos.html"><li class="botones-navegacion bbn bbn2">Graficos</li></a>
+            <a href="#"><li class="botones-navegacion bbn">Analisis</li></a>
+            <a href="Noticias.html"><li class="botones-navegacion bbn">Noticias</li></a>
+            <a href="Contactos.html"><li class="botones-navegacion">Contactos</li></a>
+        </ul>
+        <div class="publicidad">
+            <div class="publicidad-blocke pb1"><a href="https://www.bullmarketbrokers.com/" class="p-a"><img src="images/BullMarket.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb2"><a href="https://www.invertironline.com/" class="p-a"><img src="images/InvertirOnline.webp" class="i"></a>
+            </div>
+            <div class="publicidad-blocke pb3"><a href="https://balanz.com/" class="p-a"><img src="images/Balanz.webp" class="i"></a>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {
+          "symbols": [
+            {
+              "proName": "FOREXCOM:SPXUSD",
+              "title": "S&P 500"
+            },
+            {
+              "proName": "FOREXCOM:NSXUSD",
+              "title": "US 100"
+            },
+            {
+              "proName": "FX_IDC:EURUSD",
+              "title": "EUR a USD"
+            },
+            {
+              "description": "KO",
+              "proName": "NYSE:KO"
+            },
+            {
+              "description": "AAPL",
+              "proName": "NASDAQ:AAPL"
+            },
+            {
+              "description": "TSLA",
+              "proName": "NASDAQ:TSLA"
+            },
+            {
+              "description": "MSFT",
+              "proName": "NASDAQ:MSFT"
+            },
+            {
+              "description": "MCD",
+              "proName": "NYSE:MCD"
+            },
+            {
+              "description": "DIS",
+              "proName": "NYSE:DIS"
+            },
+            {
+              "description": "GOOG",
+              "proName": "NASDAQ:GOOG"
+            },
+            {
+              "description": "NVDA",
+              "proName": "NASDAQ:NVDA"
+            },
+            {
+              "description": "AMZN",
+              "proName": "NASDAQ:AMZN"
+            },
+            {
+              "description": "WMT",
+              "proName": "NYSE:WMT"
+            },
+            {
+              "description": "NIKE",
+              "proName": "NYSE:NKE"
+            },
+            {
+              "description": "BTC",
+              "proName": "BINANCE:BTCUSD"
+            },
+            {
+              "description": "ETH",
+              "proName": "BINANCE:ETHUSD"
+            }
+          ],
+          "showSymbolLogo": true,
+          "colorTheme": "dark",
+          "isTransparent": true,
+          "displayMode": "adaptive",
+          "locale": "es"
+          }
+        </script>
+      </div>
+      <button class="boton-redireccionamiento" onclick ="window.scrollTo(0, 0)"><i class="fa-solid fa-arrow-up"><p class="texto-redireccionamiento"></p></i></button>
+    </nav>
+    <hr>
+    <div id="aside-section">
+    <aside>
+        <p class="titulos-aside">REDES SOCIALES</p>
+        <div class="raya"></div>
+        <table id="lista-iconos">
+            <tr >
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.instagram.com/jou.s.m/"><img class="redes" src="images/Instagram.webp">Instagram</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Facebook.webp">Facebook</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Twitter.webp">Twitter</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.youtube.com/@quees9681"><img class="redes" src="images/Youtube.webp">Youtube</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Linkedin.webp">Linkedin</a></td>
+            </tr>
+        </table>
+        <p class="titulos-aside">COMENTARIOS</p>
+        <div class="raya"></div>
+        <form action="" name='comentarios'>
+          <label for="nombre"></label>
+          <input type="text" id="cuadro-nombre" name="nombre" placeholder="Escribe tu nombre">
+          <label for="comentario"></label>
+          <textarea id="cuadro-comentario" name="comentario" value="vacio" placeholder="Escribe tu comentario"></textarea>
+          <button id="boton-enviar" type="submit">Enviar</button>
+        </form>
+    </aside>
+    <section>
+        <article>
+            <p class="titulo1">¿Qué son los Gráficos Bolsa?</p>
+            <br>
+            <p class="texto-articulo">Antes de intentar interpretar la información que muestra un gráfico, el operador debe entender qué es un gráfico de bolsa y conocer algunos detalles esenciales para comprenderlo. En este tipo de gráficos, como en todos los gráficos de línea, se utilizan dos ejes (“x” es el horizontal e “y” el vertical) para mostrar la evolución de un tipo de valor. Entonces, ese valor se verá reflejado en el eje “y”, y su evolución (por ejemplo, en el tiempo) será representada con el eje “x”. Por lo tanto, un gráfico de bolsa muestra cómo varía un valor (por ejemplo, el de una acción) a través del tiempo.</p>
+            <p class="texto-articulo">En resumen, un gráfico bolsa también se le conoce como gráfico o gráfica bursátil y es básicamente la representación de los tipos de intercambio que ocurren entre los instrumentos financieros, que se ilustran en la tabla a lo largo de un tiempo determinado. Sin embargo, existen muchos tipos de gráficos con sutiles variaciones que dan cuenta de otras variables como para comprender el mercado.</p>
+            <p class="texto-articulo tu">La capacidad de leer gráficos es una parte integral de las operaciones bursátiles, dominada por todos los inversores exitosos, y no solo le permite mantenerse al tanto de las operaciones actuales, sino que también le ayuda a detectar una línea de tendencia en desarrollo para sus operaciones futuras. De este modo, es más probable anticiparse a un movimiento y generar ganancias gracias a él.</p>
+            <div class="t-w-c">
+              <div class="tradingview-widget-container1" style="height:100%;width:100%">
+                <div id="tradingview_276c1" style="height:calc(100% - 32px);width:100%"></div>
+                <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Siga los mercados en TradingView</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                new TradingView.widget(
+                {
+                "autosize": true,
+                "symbol": "NASDAQ:AAPL",
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "dark",
+                "style": "1",
+                "locale": "es",
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "container_id": "tradingview_276c1"
+                }
+                );
+                </script>
+              </div>
+            </div>
+        </article>
+    </section>
+    </div>
+    <footer>
+      <table id="lista-copy"> 
+          <tr class="l1">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Acerca de Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Politica de Privacidad</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Preguntas frecuentes</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.instagram.com/jou.s.m/"><img src="images/InstagramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/FacebookC.png" class="ico-copy"></a></td>
+              <td id="cuadro-de-logo-copy" rowspan="2"><img id="logo-copy" src="images/LogoFinanzas.webp"></td>
+          </tr>
+          <tr class="l2">
+              <td class="cuadro-de-copy"><a class="link-copy" href="" title="Jose Salas">Desarrolladores</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Condiciones</td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Trabaja con nosotros</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TelegramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.youtube.com/@quees9681"><img src="images/YoutubeC.png" class="ico-copy"></a></td>
+          </tr>
+          <tr class="l3">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Academia Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Declaracion de cookies</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Contacto</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/LinkedinC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TwitterC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-texto-copy"><p id="texto-copy">Copyright (c) 2023 Finanzas.Inc. Todos los derechos reservados.</p></td>
+          </tr>
+      </table>
+  </footer>
+  <script src="JAVASRCIPT/Grafico.js"></script>
+  <script src="https://kit.fontawesome.com/f74e1cde49.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,1156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* MENU DE COLORES*/
+/* 
+ #333a56    VERMILLON
+ #52658F    SUNSHINE
+ #E8E8E8    CLEAN
+ #F7F5E6    FRESH
+*/
+
+/*************** PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) **************/
+
+@media(min-width: 1200px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+/************************HEADER************************/
+
+header {
+    background-color: #333a56;
+    height: 70px;
+    width: 100%;
+}
+#logo {
+    float: left;
+    height: 35px; 
+    margin: 17.5px 0px;
+    width: 16.66666666%;
+
+    padding: 0px 10px 0px 10px;
+
+}
+.espacio-vacio{
+    float: left;
+    height: 70px;
+    width: 58.33333333%;
+    
+}
+#ini-regis{
+    float: left;
+    height: 40px;
+    width: 25%;
+
+    margin: 15px 0px;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.botones-ingreso{
+    float: left;
+    height: 32px;
+    width: 125px;
+    background-color: #52658F;
+    margin: 4px 0px 4px 0px;
+    border: solid 1px  #F7F5E6;
+    color: #F7F5E6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+    border-radius: 15px;
+  
+}
+.botones-ingreso:hover{
+    background-color: #6b85bb;
+}
+#imagenes-finanzas {
+    width: 100%;
+    height: 300px;
+}
+
+/***************************NAV***************************/
+
+nav{
+    background-color: #52658F ;
+    height: 40px;
+    width: 100%;
+
+}
+#botn{
+    width: 100%;
+    height: 40px;
+
+}
+.botones-navegacion{
+    float: left;
+    width: 16.66666666%;
+    height: 40px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #F7F5E6;
+
+    background-color:  #52658F ;
+}
+.bbn{
+    border-right: solid 1px  #333a56; 
+}
+.botones-navegacion:hover{
+    background-color: #6b85bb;
+}
+
+/************************SECTION************************/
+
+section{
+    background-color:  #cacaca;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 0px;
+
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+article{
+    background-color: #F7F5E6;
+    height: auto;
+    width: 448px;
+
+    padding: 25px 30px;
+
+} 
+#titulo{
+    font-size: 30px;
+    font-weight: 600;
+
+    margin: 0px 0px 25px 0px;
+
+    
+}
+.link1{
+    color: black;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.lm{
+
+}
+
+.lt{
+    margin: 0px 0px 0px 10px;
+    border-bottom: solid 2px rgb(49, 49, 49);
+}
+
+.caja{
+    height: 40px;
+    width: 100%;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-bottom: 15px;
+    padding: 0px 1.5785vh;
+}
+.caem{
+    margin-top: 15px;
+}
+
+.checkbox{
+    width: 10px;
+    height: 10px;
+}
+.texto-checkbox{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.link2{
+    color: #52658F ;
+}
+.link2:hover{
+    color: #6b85bb;
+}
+#boton-registrar{
+    height: 50px;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    background-color: #52658F;
+
+    color: #F7F5E6 ;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+#boton-registrar:hover{
+    background-color: #6b85bb;
+}
+
+
+/************************FOOTER************************/
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 3.1571vh 0;
+    background-color: #171a27;
+
+    display: flex;
+    justify-content: center;
+}
+#lista-copy{
+    color: #F7F5E6 ;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.0521vh;
+    font-weight: 600;
+}
+.cuadro-de-copy{
+    height: 3.9464vh;
+    width: 42.6214vh;
+    
+    color: #F7F5E6 ;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.0521vh;
+    font-weight: 600;
+}
+.link-copy{
+    color: #F7F5E6 ;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.0521vh;
+    font-weight: 600;
+}
+#cuadro-de-logo-copy{
+    text-align: center;
+}
+.cuadro-de-redes-copy{
+    width: 12.6285vh;
+}
+.ico-copy{
+    width: 3.9464vh;
+    height: 3.9464vh;
+}
+#logo-copy{
+    height: 4.7357vh;
+    width: 28.4142vh;
+}
+#texto-copy{
+    color: #F7F5E6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4207vh;
+}
+}
+
+/********** PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) **********/
+
+@media(max-width: 1199px) and (min-width: 992px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /************************HEADER************************/
+    
+    header {
+        background-color: #333a56;
+        height: 11.05vh;
+        width: 100%;
+    }
+    #logo {
+        float: left;
+        height: 5.525vh; 
+        margin: 2.76vh 0;
+        width: 16.66666666%;
+    
+        padding: 0 1.5785vh;
+    
+    }
+    .espacio-vacio{
+        float: left;
+        height: 11.05vh;
+        width: 58.33333333%;
+    }
+    #ini-regis{
+        float: left;
+        height: 5.5514vh;
+        width: 25%;
+    
+        margin: 2.7493vh 0;
+       
+        display: flex;
+        justify-content: end;
+    }
+    .botones-ingreso{
+        float: left;
+        height: 5.5514vh;
+        width: 19.7321vh;
+        background-color: #52658F;
+        margin: auto 3vh;
+        border: solid 1px  #F7F5E6;
+        color: #F7F5E6;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 2.21vh;
+    
+        border-radius: 15px;
+    }
+    .botones-ingreso:hover{
+        background-color: #6b85bb;
+    }
+    #imagenes-finanzas {
+        width: 100%;
+        height: 47.3571vh;
+    }
+    
+    /***************************NAV***************************/
+
+    nav{
+        height: auto;
+        width: 100%;
+        margin: 0 0;
+    }
+    .tradingview-widget-container{
+        background-color: #333a56;
+        height: auto;
+        width: 100%;
+    }
+    .botn-publicidad{
+        height: 40.8vh;
+        width: 100%;
+        margin: 0px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    #botn{
+        width: 100%;
+        height: 6.3vh;
+    }
+    .botones-navegacion{
+        float: left;
+        width: 16.66666666%;
+        height: 6.3vh;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: #F7F5E6;
+    
+        background-color:  #52658F ;  
+    }
+    .bbn{
+        border-right: solid 1px  #333a56; 
+    }
+    .bbn3{
+        font-size: 2.5vh;
+    }
+    .botones-navegacion:hover{
+        background-color: #6b85bb;
+    }
+    .publicidad{
+        width: 100%;
+        height: 34.5vh;
+        display: flex;
+    }
+    .publicidad-blocke{
+        width: 33.33333333%;
+        height: 34.5vh;
+        background-color: #cacaca;
+        padding: 3vh 0;
+    }
+    .pb1{
+        padding-left: 3vh;
+        padding-right: 1.60vh;
+    }
+    .pb2{
+        padding-left: 2.25vh;
+        padding-right: 2.25vh;
+    }
+    .pb3{
+        padding-left: 1.60vh;
+        padding-right: 3vh;
+    }
+    .p-a{    
+        height: 28.5vh;
+        width: 100%;
+    }
+    .i{
+        height: 28.5vh;
+        width: 100%;
+    }
+
+    /************************SECTION************************/
+
+    section{
+        background-color:  #cacaca;
+        height: auto;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    
+        padding: 40px 0px;
+    
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    article{
+        background-color: #F7F5E6;
+        height: auto;
+        width: 448px;
+    
+        padding: 25px 30px;
+    
+    } 
+    #titulo{
+        font-size: 30px;
+        font-weight: 600;
+    
+        margin: 0px 0px 25px 0px;
+    
+        
+    }
+    .link1{
+        color: black;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .lm{
+        
+    }
+    .lt{
+        margin: 0px 0px 0px 10px;
+        border-bottom: solid 2px rgb(49, 49, 49);
+        
+    }
+    .caja{
+        height: 40px;
+        width: 100%;
+    
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        margin-bottom: 15px;
+        padding: 0px 1.5785vh;
+    
+    }
+    .caem{
+        margin-top: 15px;
+    }
+    .checkbox{
+        width: 10px;
+        height: 10px;
+    }
+    .texto-checkbox{
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .link2{
+        color: #52658F ;
+    }
+    .link2:hover{
+        color: #6b85bb;
+    }
+    #boton-registrar{
+        height: 50px;
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+        background-color: #52658F;
+    
+        color: #F7F5E6 ;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        border: none;
+        border-radius: 15px;
+    
+        cursor: pointer;
+    }
+    #boton-registrar:hover{
+        background-color: #6b85bb;
+    }
+
+    /************************FOOTER************************/
+    
+    footer{
+        width: 100%;
+        height: auto;
+    
+        padding: 20px 0px;
+    
+        background-color: #171a27;
+    
+        display: flex;
+        justify-content: center;
+    }
+    .lista-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .cuadro-de-copy{
+        height: 35px;
+        width: 32.5714vh;
+        
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+    
+    }
+    .link-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .cuadro-de-redes-copy{
+        width: 45px;
+    }
+
+    .ico-copy{
+        width: 25px;
+        height: 25px;
+    }
+
+    #cuadro-de-logo-copy{
+       text-align: center;
+    }
+
+    #logo-copy{
+        height: 35px;
+        width: 100%;
+
+    }
+    .cuadro-de-texto-copy{
+        width: 210px;
+        height: 35px;
+    }
+    #texto-copy{
+        
+        color: #F7F5E6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    
+    }
+}
+
+/***************** PANTALLA DE PHONES - SMALL (sm) *****************/
+
+@media(max-width: 991px) and (min-width: 768px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /************************HEADER************************/
+    
+    header {
+        background-color: #333a56;
+        height: auto;
+        width: 100%;
+    }
+    #logo {
+        float: left;
+        height: 42px; 
+        margin: 22.5px 0px;
+        width: 33.33333333%;
+    
+        padding: 0px 10px 0px 15px;
+    }
+    .espacio-vacio{
+        float: left;
+        height: 70px;
+        width: 25%;
+        
+    }
+    #ini-regis{
+        height: auto;
+        width: 41.66666666%;
+    
+        margin: 23.5px 0px;
+       
+        display: flex;
+        justify-content: end;
+    }
+    .botones-ingreso{
+        float: left;
+        height: 40px;
+        width: 25.7321vh;
+        background-color: #52658F;
+        margin: 0px 17px 0px 0px;
+        border: solid 1px  #F7F5E6;
+        color: #F7F5E6;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    
+        border-radius: 15px;
+      
+    }
+    .botones-ingreso:hover{
+        background-color: #6b85bb;
+    }
+    #imagenes-finanzas {
+        width: 100%;
+        height: 300px;
+    }
+    
+    /***************************NAV***************************/
+    
+    nav{
+        background-color: #52658F ;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    #botn{
+        width: 100%;
+        height: 40px;
+    }
+    .botones-navegacion{
+        float: left;
+        width: 33.33333333%;
+        height: 40px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: #F7F5E6;
+    
+        background-color:  #52658F ;
+    }
+    .bbn{
+        border-right: solid 1px  #333a56; 
+    }
+    .bbn2{
+        border-bottom: solid 1px  #333a56;
+    }
+    .botones-navegacion:hover{
+        background-color: #6b85bb;
+    }
+
+    /************************SECTION************************/
+
+    section{
+        background-color:  #cacaca;
+        height: auto;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+    
+        padding: 40px 0px;
+    
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    article{
+        background-color: #F7F5E6;
+        height: auto;
+        width: 448px;
+    
+        padding: 25px 30px;
+    
+    } 
+    #titulo{
+        font-size: 30px;
+        font-weight: 600;
+    
+        margin: 0px 0px 25px 0px;
+    
+        
+    }
+    .link1{
+        color: black;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .lm{
+
+    }
+    .lt{
+        margin: 0px 0px 0px 10px;
+        border-bottom: solid 2px rgb(49, 49, 49);
+    }
+    .caja{
+        height: 40px;
+        width: 100%;
+    
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        margin-bottom: 15px;
+        padding: 0px 1.5785vh;
+    
+    }
+    .caem{
+        margin-top: 15px;
+    }
+    .checkbox{
+        width: 10px;
+        height: 10px;
+    }
+    .texto-checkbox{
+        font-size: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .link2{
+        color: #52658F ;
+    }
+    .link2:hover{
+        color: #6b85bb;
+    }
+    #boton-registrar{
+        height: 50px;
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+        background-color: #52658F;
+    
+        color: #F7F5E6 ;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+        border: none;
+        border-radius: 15px;
+    
+        cursor: pointer;
+    }
+    #boton-registrar:hover{
+        background-color: #6b85bb;
+    }
+
+    /************************FOOTER************************/
+    
+    footer{
+        width: 100%;
+        height: auto;
+    
+        padding: 20px 0px;
+    
+        background-color: #171a27;
+    
+        display: flex;
+        justify-content: center;
+    }
+    .lista-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .cuadro-de-copy{
+        height: 35px;
+        width: 100px;
+        
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+    
+    }
+    .link-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .cuadro-de-redes-copy{
+        width: 45px;
+    }
+
+    .ico-copy{
+        width: 25px;
+        height: 25px;
+    }
+
+    #cuadro-de-logo-copy{
+       text-align: center;
+
+    }
+
+    #logo-copy{
+        height: 35px;
+        width: 100%;
+
+    }
+    .cuadro-de-texto-copy{
+        width: 210px;
+        height: 35px;
+    }
+    #texto-copy{
+        color: #F7F5E6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    }
+}
+
+/************* PANTALLA DE PHONES - EXTRA SMALL (xs) *************/
+
+@media(max-width: 767px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /************************HEADER************************/
+    
+    header {
+        background-color: #333a56;
+        height: 110;
+        width: 100%;
+        display: flex;
+    }
+    #logo{
+        height: 70px; 
+        width: 70px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .espacio-vacio{
+        float: left;
+        height: 110px;
+        width: 100%;
+    }
+    #ini-regis{
+        height: 110px;
+        width: auto;
+        padding-top: 13.33333333px;
+        margin-right: 20px;
+    }
+    .botones-ingreso{
+        height: 35px;
+        width: 25vh;
+        background-color: #52658F;
+        margin-bottom: 13.33333333px;
+        border: solid 1px  #F7F5E6;
+        color: #F7F5E6;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    
+        border-radius: 15px;
+    }
+    .botones-ingreso:hover{
+        background-color: #6b85bb;
+    }
+    #imagenes-finanzas {
+        width: 100%;
+        height: 300px;
+    }
+    
+    /***************************NAV***************************/
+    
+    nav{
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    .botn-publicidad{
+        height: 40.8vh;
+        width: 100%;
+        margin: 0px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+    #botn{
+        width: 100%;
+        height: 40px;
+    }
+    .botones-navegacion{
+        float: left;
+        width: 33.33333333%;
+        height: 40px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: #F7F5E6;
+       background-color:  #52658F ;
+    }
+    .bbn{
+        border-right: solid 1px  #333a56; 
+    }
+    .bbn2{
+        border-bottom: solid 1px  #333a56;
+    }
+    .bbn3{
+        font-size: 2.5vh;
+        text-align: center;
+    }
+    .botones-navegacion:hover{
+        background-color: #6b85bb;
+    }
+    .publicidad{
+        width: 100%;
+        height: auto;
+    }
+    .publicidad-blocke{
+        width: 100%;
+        height: auto;
+        background-color: #cacaca;
+    }
+    .pb1{
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+    .pb2{
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+    .pb3{
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+    .p-a{    
+        height: 130px;
+        width: 100%;
+    }
+    .i{
+        height: 150px;
+        width: 100%;
+        margin: 1.5vh 0;
+    
+        background-color: #cacaca;
+    }
+    .tradingview-widget-container{
+        background-color: #333a56;
+        height: auto;
+        width: 100%;
+    }
+
+    /************************SECTION************************/
+
+section{
+    background-color:  #cacaca;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 0px;
+
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+article{
+    background-color: #F7F5E6;
+    height: auto;
+    width: 67vh;
+
+    padding: 3.9464vh 4.7357vh;
+
+} 
+#titulo{
+    font-size: 30px;
+    font-weight: 600;
+
+    margin: 0px 0px 25px 0px;
+
+    
+}
+.link1{
+    color: black;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.lm{
+    
+}
+
+.lt{
+    margin: 0px 0px 0px 10px;
+    border-bottom: solid 2px rgb(49, 49, 49);
+}
+
+.caja{
+    height: 40px;
+    width: 100%;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-bottom: 15px;
+    padding: 0px 1.5785vh;
+}
+.caem{
+    margin-top: 15px;
+}
+
+.checkbox{
+    width: 10px;
+    height: 10px;
+}
+.texto-checkbox{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.link2{
+    color: #52658F ;
+}
+.link2:hover{
+    color: #6b85bb;
+}
+#boton-registrar{
+    height: 50px;
+    width: 100%;
+    margin: 15px 0px 0px 0px;
+    background-color: #52658F;
+
+    color: #F7F5E6 ;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border: none;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+#boton-registrar:hover{
+    background-color: #6b85bb;
+}
+
+    /************************FOOTER************************/
+    
+    footer{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+    
+        background-color: #171a27;
+    }
+    #lista-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        width: 100%;
+    }
+    .cuadro-de-copy{
+        height: 35px;
+        width: 100px;
+        
+        text-align: center;
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .link-copy{
+        color: #F7F5E6 ;
+        font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .cuadro-de-redes-copy{
+        width: 45px;
+        text-align: center;
+    }
+    .ico-copy{
+        width: 25px;
+        height: 25px;
+    }
+    #cuadro-de-logo-copy{
+       text-align: center;
+    }
+    .cuadro-de-logo-copy-2{
+        text-align: center;
+        margin-top: 10px;
+     }
+    #logo-copy{
+        height: 35px;
+        width: 100%;
+    }
+    .logo-copy-2{
+        height: 35px;
+        width: 240px;
+    }
+    .cuadro-de-texto-copy{
+        width: 210px;
+        height: 35px;
+    }
+    .cuadro-de-texto-copy-2{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #texto-copy{
+        color: #F7F5E6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    }
+    .texto-copy-2{
+        color: #F7F5E6;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 9px;
+        width: 250px;
+        text-align: center;
+    }
+}
