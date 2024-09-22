@@ -2593,17 +2593,17 @@ footer{
     }      
     .titulo1{
         /*font-size: 3.9357vh;*/
-        font-size: 1.75rem;
+        font-size: 1.85rem;
         font-weight: 500;
     }         
     .titulo2{
         /*font-size: 3vh;*/
-        font-size: 1.31rem;
+        font-size: 1.41rem;
         font-weight: 500;
     }
     .texto-articulo{
         /*font-size: 2.2vh;*/
-        font-size: 0.99rem;
+        font-size: 1.09rem;
     }
     #tabla-tipos{
         width: 100%;
