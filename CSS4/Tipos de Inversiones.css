@@ -2593,18 +2593,18 @@ footer{
     }      
     .titulo1{
         /*font-size: 3.9357vh;*/
-        font-size: 2.05rem;
+        font-size: 1.95rem;
         font-weight: 500;
         color: red;
     }         
     .titulo2{
         /*font-size: 3vh;*/
-        font-size: 1.61rem;
+        font-size: 1.51rem;
         font-weight: 500;
     }
     .texto-articulo{
         /*font-size: 2.2vh;*/
-        font-size: 1.29rem;
+        font-size: 1.19rem;
     }
     #tabla-tipos{
         width: 100%;
