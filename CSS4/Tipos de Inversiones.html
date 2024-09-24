@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzas</title>
+    <link rel="stylesheet" href="CSS4/Tipos de Inversiones.css">
+    <link rel="icon" href="images/LogoFinanzasPestaña.webp">
+</head>
+<body>
+    <header>
+        <a id="logo-link" href="index.html"><img id="logo" src="images/LogoFinanzas.webp"></a>
+        <div class="espacio-vacio"></div>
+        <ul id="ini-regis">
+            <a href=""><li class="botones-ingreso">Iniciar sesion</li></a>
+            <a href="RegistrarseE.html"><li class="botones-ingreso">Registrarse</li></a>
+        </ul>
+    </header>
+    <nav>
+        <div class="both-publicidad">
+          <ul id="botn">
+              <a href="index.html"><li class="botones-navegacion bbn bbn2">Inicio</li></a>
+              <a href="Tipos de Inversiones.html"><li class="botones-navegacion bbn bbn2 bbn3">Tipos de Inversiones</li></a>
+              <a href="Graficos.html"><li class="botones-navegacion bbn bbn2">Graficos</li></a>
+              <a href="#"><li class="botones-navegacion bbn">Analisis</li></a>
+              <a href="Noticias.html"><li class="botones-navegacion bbn">Noticias</li></a>
+              <a href="Contactos.html"><li class="botones-navegacion">Contactos</li></a>
+          </ul>
+          <div class="publicidad">
+              <div class="publicidad-blocke pb1"><a href="https://www.bullmarketbrokers.com/" class="p-a"><img src="images/BullMarket.webp" class="i"></a>
+              </div>
+              <div class="publicidad-blocke pb2"><a href="https://www.invertironline.com/" class="p-a"><img src="images/InvertirOnline.webp" class="i"></a>
+              </div>
+              <div class="publicidad-blocke pb3"><a href="https://balanz.com/" class="p-a"><img src="images/Balanz.webp" class="i"></a>
+              </div>
+          </div>
+        </div>
+        <hr>
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+            "symbols": [
+              {
+                "proName": "FOREXCOM:SPXUSD",
+                "title": "S&P 500"
+              },
+              {
+                "proName": "FOREXCOM:NSXUSD",
+                "title": "US 100"
+              },
+              {
+                "proName": "FX_IDC:EURUSD",
+                "title": "EUR a USD"
+              },
+              {
+                "description": "KO",
+                "proName": "NYSE:KO"
+              },
+              {
+                "description": "AAPL",
+                "proName": "NASDAQ:AAPL"
+              },
+              {
+                "description": "TSLA",
+                "proName": "NASDAQ:TSLA"
+              },
+              {
+                "description": "MSFT",
+                "proName": "NASDAQ:MSFT"
+              },
+              {
+                "description": "MCD",
+                "proName": "NYSE:MCD"
+              },
+              {
+                "description": "DIS",
+                "proName": "NYSE:DIS"
+              },
+              {
+                "description": "GOOG",
+                "proName": "NASDAQ:GOOG"
+              },
+              {
+                "description": "NVDA",
+                "proName": "NASDAQ:NVDA"
+              },
+              {
+                "description": "AMZN",
+                "proName": "NASDAQ:AMZN"
+              },
+              {
+                "description": "WMT",
+                "proName": "NYSE:WMT"
+              },
+              {
+                "description": "NIKE",
+                "proName": "NYSE:NKE"
+              },
+              {
+                "description": "BTC",
+                "proName": "BINANCE:BTCUSD"
+              },
+              {
+                "description": "ETH",
+                "proName": "BINANCE:ETHUSD"
+              }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "dark",
+            "isTransparent": true,
+            "displayMode": "adaptive",
+            "locale": "es"
+            }
+          </script>
+        </div>
+        <button class="boton-redireccionamiento" onclick ="window.scrollTo(0, 0)"><i class="fa-solid fa-arrow-up"><p class="texto-redireccionamiento"></p></i></button>
+    </nav>
+    <hr>
+    <div id="aside-section">  
+    <aside>
+        <p class="titulos-aside">REDES SOCIALES</p>
+        <div class="raya"></div>
+        <table id="lista-iconos">
+            <tr >
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.instagram.com/jou.s.m/"><img class="redes" src="images/Instagram.webp">Instagram</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Facebook.webp">Facebook</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Twitter.webp">Twitter</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href="https://www.youtube.com/@quees9681"><img class="redes" src="images/Youtube.webp">Youtube</a></td>
+                <td class="cuadro-de-iconos"><a class="link-redes" href=""><img class="redes" src="images/Linkedin.webp">Linkedin</a></td>
+            </tr>
+        </table>
+        <p class="titulos-aside">COMENTARIOS</p>
+        <div class="raya"></div>
+        <form action="" name='comentarios'>
+          <label for="nombre"></label>
+          <input type="text" id="cuadro-nombre" name="nombre" placeholder="Escribe tu nombre">
+          <label for="comentario"></label>
+          <textarea id="cuadro-comentario" name="comentario" value="vacio" placeholder="Escribe tu comentario"></textarea>
+          <button id="boton-enviar" type="submit">Enviar</button>
+        </form>
+    </aside>
+    <section>
+        <article>
+            <p class="titulo1">¿Que es una inversion?</p>
+            <br>
+            <p class="texto-articulo">La definición de inversión se puede resumir en la acción de colocar capital o dinero en una actividad económica, proyecto u operación con el objetivo de obtener un rendimiento económico a largo plazo. Básicamente se trata de no consumir en el corto plazo los ahorros o patrimonios que tenemos, sino ponerlos a trabajar para que nos produzcan más beneficios a lo largo del tiempo. Esto puede hacerse a través de la compra de objetos físicos que se revalorizan, materias primas, bienes raíces, criptomonedas, o inversiones relacionadas con la compra de acciones, fondos de inversión o Exchange-Traded Fund (ETFs). De esta manera hacemos rendir nuestro dinero y logramos libertad financiera sin hipotecar nuestro tiempo.</p>
+            <br>
+            <p class="titulo1">Factores fundamentales de una inversión</p>
+            <br>
+            <p class="texto-articulo">Toda inversión se rige por cuatro factores que son fundamentales para evaluar si es conveniente o no hacerla. Veamos cada uno de ellos:</p>
+            <br>
+            <p class="titulo2">Rentabilidad</p>
+            <br>
+            <p class="texto-articulo">Se refiere al rendimiento esperado, es decir, al beneficio que esperamos tener por nuestra inversión. Esto se mide según el porcentaje del dinero invertido. Además,  la rentabilidad contempla la relación entre el rendimiento esperado y el riesgo asumido: es decir, a mayor rentabilidad, mayor riesgo.</p>
+            <br> 
+            <p class="titulo2">Riesgo aceptado o asumido</p>
+            <br>
+            <p class="texto-articulo">Esto dependerá del perfil del inversionista, y cómo puede manejar la incertidumbre sobre el rendimiento de su inversión y la posibilidad de pérdida del capital invertido. Por ejemplo, los inversores más conservadores optan por productos de renta fija o depósitos a plazo fijo, por considerarlos de bajo riesgo. Mientras, otros prefieren instrumentos financieros de renta variable y otras inversiones que les dejen mayor rentabilidad.</p>
+            <br>
+            <p class="titulo2">Plazos</p>
+            <br>
+            <P class="texto-articulo">Aquí miramos el horizonte temporal de la inversión, es decir, si es a corto, mediano o largo plazo. Toma en cuenta que una inversión extendida en el tiempo genera mejor rendimiento que aquellas que se hacen a corto o mediano plazo. Un ejemplo claro de esto podrían ser los bonos a corto plazo o bonos gubernamentales, que además se consideran un instrumento de inversión seguro porque están cubiertos por varios países.</P>
+            <br>
+            <p class="titulo2">Liquidez</p>
+            <br>
+            <p class="texto-articulo">En este punto se analiza en cuánto tiempo podremos recuperar nuestra inversión y cuál es el costo que tendremos al convertirla en efectivo. Por ejemplo, los depósitos a plazo fijo nos permiten saber cuándo redimiremos esa inversión y nos aseguran un determinado nivel de interés y vencimientos de poca duración.</p>
+            <br>
+            <p class="titulo1">Tipos de inversión y ejemplos de cada una</p>
+            <br>
+            <P class="texto-articulo">Existen varias opciones de inversión y en los últimos años muchas se han vuelto populares, su clasificación depende del tiempo en el que se obtiene el rendimiento, por lo que se dividen en inversiones a corto, mediano y largo plazo. Las primeras tienen un periodo máximo de duración de un año y ofrecen plazos fijos y seguros. En este artículo nos enfocaremos en las de largo plazo:</p>
+            <br>
+            <div class="tabla-tipos-mayor">
+              <div class="tabla-tipos">
+              <div class="caja-tipos bon">
+                <p class="titulo-tipos"> BONOS</p>
+                <br>
+                <P class="texto-tipos">Este es un tipo de inversión de renta fija, donde el inversionista coloca capital a varios años, con vencimiento de entre 3 y 30 años, según las condiciones de la deuda, y recibe un monto anual de rendimiento fijo establecido previamente. Los bonos pueden ser públicos, es decir, emitidos por el Estado y en este caso se consideran de bajo riesgo crediticio, o de inversión privada. Al comprar un bono, el inversionista es acreedor de una porción de las deudas de instituciones o gobiernos. Es más recomendable para los perfiles de inversionistas conservadores.</p>
+                <br>
+                <a href=""><p class="leer-mas">-Leer mas-</p></a>
+              </div>
+              <div class="caja-tipos acc">   
+                <p class="titulo-tipos">ACCIONES</p>
+                <br>
+                <p class="texto-tipos">Este es uno de los tipos de inversiones más populares y es la que suelen elegir quienes se inician en este mundo. Sin embargo, es necesario contar con la asesoría adecuada o el conocimiento apropiado para elegir bien dónde colocar el dinero y cuándo hacerlo. Y es que si la empresa en la que inviertes crece y su valor aumenta, obtienes rendimientos al vender tus participaciones. Pero si sucede lo contrario, podrías sufrir pérdidas. En el caso de las acciones de la bolsa de valores se agrupan en índices según la capitalización de las empresas.</p>
+                <br>
+                <a href=""><p class="leer-mas">-Leer mas-</p></a>
+              </div> 
+              <div class="caja-tipos fci">
+                <p class="titulo-tipos">FONDO DE INVERSION</p>
+                <br>
+                <p class="texto-tipos">Los fondos de inversión son vehículos que toman el capital de varios inversionistas y lo invierten en una cartera de instrumentos acorde a la estrategia del fondo. Existen fondos de inversión enfocados en instrumentos de renta fija, variable o alternativos. Suelen ser de manejo activo,  es decir que la estrategia es ejecutada por profesionales de inversión que deciden en qué invertir y buscan lograr rendimientos superiores a los del mercado en general para los inversionistas del fondo.</p>
+                <br>
+                <a href=""><p class="leer-mas">-Leer mas-</p></a>
+              </div>
+              </div>  
+              <div class="tabla-tipos">
+              <div class="caja-tipos bie">
+                <p class="titulo-tipos">BIENES RAICES</p>
+                <br>
+                <p class="texto-tipos">La inversión en bienes raíces consiste en adquirir un terreno o un inmueble con la intención de obtener un rendimiento financiero, en lugar de que el propietario lo utilice u ocupe de manera personal. Este beneficio puede venir en forma de ingresos por alquiler o de revalorización, ya que el suelo y la propiedad tienden a aumentar de valor con el tiempo. Los inmuebles de inversión pueden ser residenciales o no residenciales. Puedes comprar una propiedad para alquilarla como un estudio, una oficina o un almacén, o adquirir un departamento para rentarlo a otra persona.</p>
+                <br>
+                <a href=""><p class="leer-mas">-Leer mas-</p></a>
+              </div>
+              <div class="caja-tipos com">
+                <p class="titulo-tipos">COMMODITIES</p>
+                <br>
+                <p class="texto-tipos">Esta es una de las opciones de inversión para aquellos perfiles más expertos, porque se necesita conocimiento de los distintos mercados. Pueden colocar capital en el sector agrícola o ganadero, así como el oro o el petróleo. Todos estos tipos de inversión son válidos y cada uno tiene sus ventajas. Lo importante a la hora de elegir dónde colocar tus recursos financieros es que estés bien asesorado, seguro del paso que vas a dar y que escojas según tu perfil de inversionista.</p>
+                <br>
+                <a href=""><p class="leer-mas">-Leer mas-</p></a>
+              </div>
+              <div class="caja-tipos cri">
+                <p class="titulo-tipos">CRIPTOMONEDAS</p>
+                <br>
+                <p class="texto-tipos">Una criptomoneda es un activo digital que emplea un cifrado criptográfico para garantizar su titularidad y asegurar la integridad de las transacciones. Estas monedas no existen de forma física, se almacenan en una cartera digital, no están reguladas por ninguna institución y no requieren de intermediaros en las transacciones. Las dos formas principales de obtener rendimientos son; el holding (comprar alguna criptomoneda y mantenerla durante periodos relativamente largos, con vista a que se revalorice) y el trading (comprar y vender la criptomoneda en periodos cortos con el objetivo de ir obteniendo rentabilidades parciales).</p>
+                <br>
+                <a href=""><p class="leer-mas ama">-Leer mas-</p></a>
+              </div>        
+              </div>
+            </div>
+        </article>
+    </section>
+    </div>
+    <footer>
+      <table id="lista-copy"> 
+          <tr class="l1">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Acerca de Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Politica de Privacidad</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Preguntas frecuentes</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.instagram.com/jou.s.m/"><img src="images/InstagramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/FacebookC.png" class="ico-copy"></a></td>
+              <td id="cuadro-de-logo-copy" rowspan="2"><img id="logo-copy" src="images/LogoFinanzas.webp"></td>
+          </tr>
+          <tr class="l2">
+              <td class="cuadro-de-copy"><a class="link-copy" href="" title="Jose Salas">Desarrolladores</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Condiciones</td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Trabaja con nosotros</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TelegramC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href="https://www.youtube.com/@quees9681"><img src="images/YoutubeC.png" class="ico-copy"></a></td>
+          </tr>
+          <tr class="l3">
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Academia Finanzas.Inc</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Declaracion de cookies</a></td>
+              <td class="cuadro-de-copy"><a class="link-copy" href="">Contacto</a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/LinkedinC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-redes-copy"><a class="link-copy" href=""><img src="images/TwitterC.png" class="ico-copy"></a></td>
+              <td class="cuadro-de-texto-copy"><p id="texto-copy">Copyright (c) 2023 Finanzas.Inc. Todos los derechos reservados.</p></td>
+          </tr>
+      </table>
+    </footer>
+    <script src="JAVASRCIPT/Tipos de Inversiones.js"></script>
+    <script src="https://kit.fontawesome.com/f74e1cde49.js" crossorigin="anonymous"></script>
+</body>
+</html>
